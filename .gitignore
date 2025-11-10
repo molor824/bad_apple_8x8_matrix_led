@@ -1,0 +1,6 @@
+# Ignore bad apple mp4 for copyright reasons
+streamer/bad_apple.mp4
+streamer/__pycache__/
+streamer/.venv/
+streamer/.idea/
+
