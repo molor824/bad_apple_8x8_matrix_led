@@ -4,8 +4,8 @@ import time
 import numpy as np
 
 def main():
-    cap = cv.VideoCapture('./bad_apple.mp4')
-    ser = serial.Serial('/dev/ttyACM0', 250000, timeout=.1)
+    cap = cv.VideoCapture('./bad_apple.mp4') # Bad Apple music video path (Update if necessary)
+    ser = serial.Serial('/dev/ttyACM0', 250000, timeout=.1) # Choose the port to stream to (Update if necessary)
     fps = cap.get(cv.CAP_PROP_FPS)
     delta = 1 / fps
     previous = time.perf_counter()
